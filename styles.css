@@ -181,33 +181,55 @@ nav .icons{
 /*HEADER ENDS*/
 
 /*MAIN STARTS*/
+@font-face {
+  font-family: "sf-pro-display_bold";
+  src: url("sf-pro-display_bold.woff2") format("woff2");
+}
 
 @font-face {
   font-family: "sf-pro-display_regular";
   src: url("sf-pro-display_regular.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "sf-pro-text_semibold";
+  src: url("sf-pro-text_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sf-pro-text_regular";
+  src: url("sf-pro-text_semibold.woff2") format("woff2");
+}
+
 .text{
   text-align: center;
-  letter-spacing: 0.16px;
   font-family: sf-pro-display_regular
 }
 
 .big-container{
   height: 80vh;
   width: 100%;
-  margin-bottom: 1%
+  margin-bottom: 1.2%
 }
 
 .big-container-title{
-  font-size: 3.6rem;
+  font-size: 3.36rem;
   font-weight: 600;
   padding-top: 4%;
-  margin-bottom: 0.8%;
+  margin-bottom: 0.16%;
 }
 
 .big-container-subtitle{
-  font-size: 2.4rem;
-  margin-bottom: 1%;
+  font-size: 1.76rem;
+  margin-bottom: 1.2%;
+}
+
+.cta-btn{
+  display: inline;
+  font-size: 1.2rem; 
+  font-family: sf-pro-display_regular; 
+  margin-left: 1.2rem;
+  color:#2997FF
 }
 
 #iphone-15-black{
@@ -217,7 +239,7 @@ nav .icons{
 
 #iphone-15-white{
   background-color: #F5F5F7;
-  color: black;
+  color: #1D1D1F;
 }
 
 #apple-watch{
