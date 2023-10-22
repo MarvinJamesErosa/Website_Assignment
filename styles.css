@@ -7,6 +7,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 
 /*HEADER STARTS*/
@@ -178,3 +179,50 @@ nav .icons{
 }
 
 /*HEADER ENDS*/
+
+/*MAIN STARTS*/
+
+@font-face {
+  font-family: "sf-pro-display_regular";
+  src: url("sf-pro-display_regular.woff2") format("woff2");
+}
+.text{
+  text-align: center;
+  letter-spacing: 0.16px;
+  font-family: sf-pro-display_regular
+}
+
+.big-container{
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 1%
+}
+
+.big-container-title{
+  font-size: 3.6rem;
+  font-weight: 600;
+  padding-top: 4%;
+  margin-bottom: 0.8%;
+}
+
+.big-container-subtitle{
+  font-size: 2.4rem;
+  margin-bottom: 1%;
+}
+
+#iphone-15-black{
+  background-color: black;
+  color: #F5F5F7;
+}
+
+#iphone-15-white{
+  background-color: #F5F5F7;
+  color: black;
+}
+
+#apple-watch{
+  background-color: black;
+  color: white;
+}
+
+/*MAIN ENDS*/
