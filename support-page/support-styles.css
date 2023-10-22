@@ -213,7 +213,7 @@ a:hover{
 }
 
 .get-support{
-  padding-top: 32px;
+  padding-top: 24px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -225,7 +225,7 @@ a:hover{
     flex-direction: column;
     position: relative;
     background-color: #FFFFFF;
-    height: 520px;
+    height: 554px;
     width: 65vw;
     align-items: center;
     overflow: hidden;
@@ -253,7 +253,7 @@ a:hover{
   .container img{
     position: absolute;
     width:680px;
-    margin-top:40px ;
+    margin-top:80px ;
     vertical-align: middle;
     z-index: 1;
   }
@@ -286,7 +286,7 @@ a:hover{
   .container2 img{
     position: absolute;
     width: 262px;
-    margin-top:280px ;
+    margin-top:296px ;
     vertical-align: middle;
   }
 }
