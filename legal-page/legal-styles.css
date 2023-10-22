@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
+  }
+  body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: white;
+    color: #1D1D1F;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    cursor: pointer;
+    color: #227AD2;
+  }
+  p{
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  button{
+    cursor: pointer;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  img{
+    padding-bottom: 24px;
+  }
+.background-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.background-banner img{
+    height: 500px;
+    min-width: 2560px;
+}
+#banner-text{
+    padding-top: 200px;
+    padding-right: 680px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    font-size: 180%;
+}
+.big-container{
+    justify-content: center;
+    display: flex;
+
+}
+#first-row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 160px
+}
+#second-row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    text-align: left;
+    padding: 64px 0;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 64px 0;
+}
+.container h1{
+    font-size: 32px;
+    color: #1D1D1F;
+}
+
+#hardware-warranties img{
+    width: 169px;
+}
+
+#license-agreements img{
+    width: 128px;
+}
+
+#ethics-compliance img{
+    width: 74px;
+}
+
+#sales-support img{
+    width: 52px;
+}
+#internet-services img{
+    width: 77px;
+}
+#privacy-policy{
+    width: 980px;
+}
+#privacy-policy img{
+    width: 60px;
+}
+#intel-prop img{
+    width: 74px;
+}
+#more-res img{
+    width: 59px;
+}
+#last-row{
+    padding: 64px 0;
+}
+

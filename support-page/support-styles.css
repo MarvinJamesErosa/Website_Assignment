@@ -253,7 +253,7 @@ a:hover{
   .container img{
     position: absolute;
     width:680px;
-    margin-top:80px ;
+    margin-top:12px ;
     vertical-align: middle;
     z-index: 1;
   }
@@ -406,7 +406,7 @@ a:hover{
 }
 
 .service-programs{
-  padding-top: 64px;
+  padding: 64px 0;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
