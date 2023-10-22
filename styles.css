@@ -8,6 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
+    
 }
 
 /*HEADER STARTS*/
@@ -248,3 +249,134 @@ nav .icons{
 }
 
 /*MAIN ENDS*/
+
+
+
+/*FOOTER STARTS*/
+.footer-wrapper{
+  background-color: #f5f5f7; 
+
+}
+footer {
+  color: #959495;
+  padding: 20px 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.footer-content {
+  text-align: left;
+  font-size: 12px;
+}
+
+a{
+  color: #38443c;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.footer-elements {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 56px 0 0;
+}
+
+.footer-elements p {
+  margin: 5px 0;
+}
+
+.footer-elements header{
+  font-weight: 600;
+  color: #38443c;
+  margin-bottom: 12px;
+}
+.footer-elements a{
+  text-decoration: none;
+  display: block;
+  margin: 16px 0;
+}
+
+.footer-elements .last-element{
+  margin-bottom: 32px;
+}
+.footer-content .end-element{
+  margin-top: 16px;
+  margin-bottom: -12px;
+}
+.footer-content .end-element a{
+  color: #1177bb;
+}
+.footer-elements a:hover{
+  text-decoration: underline;
+}
+
+.footer-end {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.footer-end p {
+  margin: 0; 
+  font-size: 12px;
+}
+
+.footerNav {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  gap: 16px; 
+  margin-right: 80px;
+}
+
+.footerNav li {
+  display: inline; 
+}
+.footerNav li:not(:last-child)::after {
+  content: "|";
+  margin: 0 8px;
+}
+.footerNav li a{
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+.footerNav li a:hover{
+  text-decoration: underline;
+}
+
+@media(max-width: 1154px){
+  .footer-elements{
+      margin: 0 40px 0 0;
+      transition: margin 0.5s;
+  }
+  .footerNav{
+    gap: 8px; 
+    margin-right: 40px;
+  }
+  footer{
+      width: 90%;
+  }
+}
+@media(max-width: 940px){
+  .footer-elements{
+      margin: 0 32px 0 0;
+      transition: margin 0.5s;
+  }
+}
+@media(max-width: 888px){
+  .footer-elements{
+      margin: 0 20px 0 0;
+      transition: margin 0.5s;
+  }
+  .footerNav{
+    gap: 0; 
+    margin-right: 24px;
+  }
+}
+
+/*FOOTER ENDS*/
