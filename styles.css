@@ -183,22 +183,22 @@ nav .icons{
 /*MAIN STARTS*/
 @font-face {
   font-family: "sf-pro-display_bold";
-  src: url("sf-pro-display_bold.woff2") format("woff2");
+  src: url("fonts/sf-pro-display_bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "sf-pro-display_regular";
-  src: url("sf-pro-display_regular.woff2") format("woff2");
+  src: url("fonts/sf-pro-display_regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "sf-pro-text_semibold";
-  src: url("sf-pro-text_semibold.woff2") format("woff2");
+  src: url("font/sf-pro-text_semibold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "sf-pro-text_regular";
-  src: url("sf-pro-text_semibold.woff2") format("woff2");
+  src: url("fonts/sf-pro-text_semibold.woff2") format("woff2");
 }
 
 .text{
