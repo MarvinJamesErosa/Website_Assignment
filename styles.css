@@ -5,6 +5,13 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+header{
+  position: fixed;
+  width:100%;
+  opacity: .96;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
@@ -208,9 +215,21 @@ nav .icons{
 }
 
 .big-container{
-  height: 80vh;
-  width: 100%;
-  margin-bottom: 1.2%
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 1.2%;
+  max-width: 100%;
+  height:96vh;
+  overflow: hidden;
+}
+
+.big-container-plain{
+  display: flex;
+  margin-bottom: 0.8%;
+  max-width: 100%;
+  height:85vh;
+  overflow: hidden;
 }
 
 .big-container-title{
@@ -227,27 +246,169 @@ nav .icons{
 
 .cta-btn{
   display: inline;
-  font-size: 1.2rem; 
+  font-size: 1.28rem; 
   font-family: sf-pro-display_regular; 
-  margin-left: 1.2rem;
-  color:#2997FF
+  color:#0066CC
+}
+
+.chevron-right{
+  padding-left: 0.16rem;
+}
+
+.buy{
+  margin-left: 3.6%;
+}
+
+.kfm-footer{
+  display: inline flex;
+  margin-left: 50%;
+}
+.cta-btn-small{
+  display: inline;
+  font-size: 1.06rem; 
+  font-family: sf-pro-display_regular; 
+  color:#0066CC
+}
+
+.small-container{
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+  margin-left: 1%;
+  height:85vh;
+  overflow: hidden;
+}
+
+.small-container-title{
+  display: block;
+  padding-top: 9.2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.6%;
+}
+
+.small-container-title-text{
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding-top: 9.2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.6%;
+}
+
+.small-container-subtitle{
+  display: block;
+  font-size: 1.28rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.6%;
 }
 
 #iphone-15-black{
-  background-color: black;
+  padding-top: 2%;
+  background-image: url('imgs/iphone15pro.jpg');
   color: #F5F5F7;
 }
 
 #iphone-15-white{
-  background-color: #F5F5F7;
+  background-image: url('imgs/iphone15.jpg');
   color: #1D1D1F;
 }
 
-#apple-watch{
-  background-color: black;
-  color: white;
+#kfm-container{
+  background-image: url('imgs/kfm.jpg');
+  color:#F5F5F7;
 }
 
+#kfm-header{
+  font-size: 1.36rem;
+  margin-top: 10%;
+  order: 1;
+}
+
+#kfm-logo-container{
+  display: flex; 
+  padding-top: 16%;
+  margin: auto;
+  top: 20%;
+  left: 50%;
+  order: 2;
+  padding-bottom: 0.2rem;
+}
+
+#kfm-logo{
+  margin: auto
+}
+
+#kfm-footer{ 
+  display: flex;
+  margin: auto;
+  font-size: 1.36rem;
+}
+
+#kfm-watch{
+  margin:auto
+}
+
+#play-btn{
+  margin-left: 0.16rem;
+}
+
+#apple-watch{
+  background-image: url('imgs/apple-watch.jpg');
+  color:#F5F5F7;
+}
+
+#ipad{
+  background-image: url('imgs/ipad.jpg');
+  color:#1D1D1F;
+  margin-right: 1%;
+}
+
+#apple-vision{
+  background-image: url('imgs/apple-vision-pro.jpg');
+  color:#1D1D1F;
+}
+
+#apple-vision-title{
+  margin-top: 50%;
+}
+
+#macbook{
+  background-image: url('imgs/macbook.jpg');
+  color:#1D1D1F;
+  margin-right: 1%;
+}
+
+#avail-date-apple-vision{
+  font-size: 1.08rem;
+  color:#6E6E73;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.6%;
+}
+
+#apple-trade-in{
+  background-image: url('imgs/apple-trade-in.jpg');
+  color:#1D1D1F;
+}
+
+#apple-trade-in-subtitle{
+  display: block;
+  font-size: 1.28rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.16rem;
+}
+
+#apple-card{
+  background-image: url('imgs/apple-card.jpg');
+  color:#1D1D1F;
+  margin-right: 1%;
+}
 /*MAIN ENDS*/
 
 
