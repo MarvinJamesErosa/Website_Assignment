@@ -467,6 +467,18 @@ a:hover{
 
 }
 
+.cta-btn{
+  display: inline;
+  font-size: 1.48rem; 
+  font-family: sans-serif; 
+  color:#0066CC
+}
+
+.chevron-right{
+  padding-left: 0.16rem;
+  padding-top: 0.16rem;
+}
+
 
 
 /*FOOTER STARTS*/
@@ -510,7 +522,7 @@ hr {
   font-size: 12px;
   display: inline-block;
   vertical-align: top;
-  margin: 0 56px 0 0;
+  margin: 0 148px 0 0;
 }
 
 .footer-elements p {
