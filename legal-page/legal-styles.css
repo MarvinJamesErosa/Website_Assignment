@@ -376,8 +376,10 @@ nav .icons{
   .footer-wrapper .top p{
     font-size: 12px;
     color: #959495;
-    margin-left: 16px;
     padding: 22px;
+  }
+  #footer-title{
+    margin-top: 1em;
   }
   
   .footer-elements {
