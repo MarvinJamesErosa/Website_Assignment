@@ -587,7 +587,7 @@ hr {
 /*HEADER STARTS*/
 
 nav{
-  background: #fbfbfd;
+  background: #fdfcfb;
   height: 48px;
   width: 100%;
   display: flex;
@@ -633,7 +633,7 @@ nav .icons{
  display: none;
   position: absolute;
   top: 40px;
-  background: #fbfbfd;
+  background: #fbfcfd;
   width: 100%;
   height: auto;
   left: 0;
