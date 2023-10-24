@@ -3,17 +3,36 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-
 }
+@font-face {
+  font-family: "sf-pro-display_bold";
+  src: url("fonts/sf-pro-display_bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sf-pro-display_regular";
+  src: url("fonts/sf-pro-display_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sf-pro-text_semibold";
+  src: url("font/sf-pro-text_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sf-pro-text_regular";
+  src: url("fonts/sf-pro-text_semibold.woff2") format("woff2");
+}
+
 body {
   display: block;
   margin: 0;
   padding: 0;
-  font-size: 17px;
+  font-size: 0.8rem;
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -0.022em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "sf-pro-text_regular", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background-color: white;
   color: #1D1D1F;
   font-style: normal;
