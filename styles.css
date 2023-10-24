@@ -29,7 +29,10 @@ nav{
 }
 
 .apple-logo{
-    margin: 12px 1vw 12px 0;
+    padding-top: 0.216em;
+    padding-right: 0.8em;
+    width: 90.4%;
+    height: auto;
     cursor: pointer;
 }
 
