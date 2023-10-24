@@ -34,6 +34,15 @@ body {
   background-color: white;
   color: #1D1D1F;
   font-style: normal;
+  overflow: auto;
+}
+
+#apple-logo-top{
+  padding-right: 1rem;
+  width: 48%;
+  margin-bottom: 16%;
+  height: auto;
+  cursor: pointer;
 }
 header{
   opacity: .96;
