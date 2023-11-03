@@ -130,16 +130,48 @@ text-decoration: underline;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .vid-banner{
+    position: relative;
     height: 820px;
     width: 1520px;
-    background-color:#333336;
     border-radius: 24px;
+    video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+}
+.vid-banner .content{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+#playPauseButton{
+    width:42px ;
+    height: 42px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 784px;
+    border: rgb(255, 255, 255) solid 5px;
+
+}
+.play{
+    background-size: 25px 25px;
+    background-position: center;
+    background-image: url('resources/download.svg');
+}
+.pause{
+    background-size: 25px 25px;
+    background-position: center;
+    background-image: url('resources/download (2).svg');
 }
 .image-banner{
     height: 680px;
@@ -178,8 +210,40 @@ display: absolute;
     padding: 150px 0;
 }
 
-.vid-banner .buy-more{
-    padding-top: 480px;
+.vid-banner{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1520px;
+    height: 820px;
+    overflow: hidden;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+}
+.vid-banner .banner-text{
+    padding: 264px 0;
+}
+.vid-banner .banner-text p{
+    width: 200px;
+    margin: 12px auto;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.vid-banner .banner-text h1{
+    font-size: 120px;
+    line-height: .8;
+    font-weight: 600;
+    letter-spacing: -0.0018em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .buy-more button{
     width: 73px;
@@ -235,21 +299,68 @@ display: absolute;
     font-size: 200px;
 }
 
-.vid-banner{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 1520px;
-    height: 820px;
-    overflow: hidden;
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-video{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position:absolute;
+.image-list{
+    padding-left: 816px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    transition: transform 0.8s ease-in-out;
+}
+.product-container{
+    margin-top: 64px;
+    width: 383px;
+    height: 484px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-description{
+    height: 85px;
+    width: 383px;
+    margin-top: auto;
+    
+}
+.product-description p{
+    font-size: 23px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.product-description button{
+    background-size: 25px 25px;
+    background-position: center;
+    background-image: url('resources/plus-sign.png');
+    height: 37px;
+    width: 37px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    display: absolute;
+    margin-left: 316px;
+    transform: translateY(-48px);
+}
+.c-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 12px;
+}
+.c-button{
+    width: 28px;
+    height: 28px;
+    border-radius: 25px;
+    font-size: larger;
 }
 
 .fallback-content {
