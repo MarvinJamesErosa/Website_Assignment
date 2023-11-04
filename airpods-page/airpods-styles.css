@@ -87,13 +87,14 @@ text-decoration: underline;
 .third-section{
     background-color:#f5f5f7;
 }
-.nav-container{
+.aP-nav-container{
     background-color: #FFFFFF;
-    padding-top: 40px;
+    padding-top: 12px;
     height: 100px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 18px;
+    justify-content: center;
 }
 
 .nav-item{
@@ -554,9 +555,9 @@ video{
 }
 .end-guide .guidelines{
     max-width: 980px;
-  margin: 0 auto;
-  font-size: 12px;
-  color: #959495;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #959495;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -748,7 +749,7 @@ footer a {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 20vh;
     background-color: #f5f5f7;
   }
   footer {
