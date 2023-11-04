@@ -629,7 +629,7 @@
           </button>
           <ul class="image-list">
             <!----------------1-->
-            <div class="product-box-big">
+            <div class="product-box-big" id="apple-specialist-btn" onclick="togglePopup()">
               <a href="#">
                 <div class="caption-container">
                   <span>APPLE SPECIALIST</span>
@@ -655,14 +655,14 @@
             </div>
             <!----------------3--> 
             <div class="product-box-small">
-              <div class="product-box-stack" style="background-image: url('img/third-container/img3.jfif');">
+              <div class="product-box-stack" id="personal-session-btn" style="background-image: url('img/third-container/img3.jfif');">
                 <div class="caption-container-stack">
                   <h6>Get to know your new device</h6>
                   <h6>with a free Personal Session.</h6>
                 </div>
               </div>
   
-              <div class="product-box-stack" style="background-image: url('img/third-container/img4.jfif');">
+              <div class="product-box-stack" id="genius-bar-btn" style="background-image: url('img/third-container/img4.jfif');">
                 <div class="caption-container-stack">
                   <h6>Get expert service</h6>
                   <h6>and support at the</h6>
@@ -1143,6 +1143,73 @@
         </div>
       </div>
     </div>
+
+    <div class="popup" id="popup-container-AS">
+      <div class="overlay" id="popup-overlay">
+        <div class="popup-content">
+          <br><br>
+          <div class="close-popup-btn" id="close-popup-btn-AS">&times;</div>
+          <div class="popup-title" id="popup-title-1">
+            Apple Specialists are here for you.
+          </div>
+          <div class="popup-p" id="popup-p-1">
+            Need help finding what’s right for you? Shop with a Specialist online. Or reserve a shopping session at an Apple Store. 
+            American Sign Language interpreters are also available in stores and online through SignTime, an on-demand video service.
+          </div>
+          <ul class="popup-ul" id="popup-ul-1">
+            <li><a href="#">Shop with a Specialist online</a></li>
+            <li><a href="#">Contact us in American Sign Language &#x203A</a></li>
+            <li><a href="#">Reserve an in-store shopping session  &#x203A</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup-container-PS">
+      <div class="overlay" id="popup-overlay">
+        <div class="popup-content">
+          <br><br>
+          <div class="close-popup-btn" id="close-popup-btn-PS">&times;</div>
+          <div class="popup-title" id="popup-title-1">
+            We cover everything from the basics to top tips.
+          </div>
+          <div class="popup-p" id="popup-p-1">
+            Buy a new device from Apple and we’ll help you get the most out of it with a free one-on-one
+            Personal Session.
+            <br><br>
+            Once your online purchase ships, you’ll receive an invitation to schedule your online 
+            session. When you purchase or pick up in a store, a Specialist will go over your 
+            new device with you then.
+          </div>
+          <ul class="popup-ul" id="popup-ul-1">
+            <li><a href="#">Learn more &#x203A</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup-container-GB">
+      <div class="overlay" id="popup-overlay">
+        <div class="popup-content">
+          <br><br>
+          <div class="close-popup-btn" id="close-popup-btn-GB">&times;</div>
+          <div class="popup-title" id="popup-title-1">
+            Get help and schedule repairs. It’s simple.
+          </div>
+          <div class="popup-p" id="popup-p-1">
+            Apple Support is here for you online via phone, chat, or email. 
+            Or in person at any of our store locations. Our experts can assist 
+            with everything from setting up your 
+            device to recovering your Apple ID to replacing a screen.
+          </div>
+          <ul class="popup-ul" id="popup-ul-1">
+            <li><a href="#">Get support online &#x203A</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    
 
     <div class="footer-wrapper">
       <div class="quick-links">

@@ -34,4 +34,45 @@ const initSlider = (container) => {
       initSlider(slider);
     });
   });
-  
+
+const openASbtn = document.getElementById("apple-specialist-btn");
+const openPSbtn = document.getElementById("personal-session-btn");
+const openGBbtn =document.getElementById("genius-bar-btn")
+
+const overlay = document.getElementById("popup-overlay");
+
+const popupAS = document.getElementById("popup-container-AS");
+const popupPS = document.getElementById("popup-container-PS");
+const popupGB = document.getElementById("popup-container-GB");
+
+const closeBtnAS = document.getElementById("close-popup-btn-AS");
+const closeBtnPS = document.getElementById("close-popup-btn-PS");
+const closeBtnGB = document.getElementById("close-popup-btn-GB");
+
+
+openASbtn.addEventListener("click", () => {
+    overlay.style.display = "block";
+    popupAS.style.display = "block";
+});
+openPSbtn.addEventListener("click", () => {
+  overlay.style.display = "block";
+  popupPS.style.display = "block";
+});
+openGBbtn.addEventListener("click", () => {
+  overlay.style.display = "block";
+  popupGB.style.display = "block";
+});
+
+
+closeBtnAS.addEventListener("click", () => {
+    overlay.style.display = "none";
+    popupAS.style.display = "none";
+});
+closeBtnPS.addEventListener("click", () => {
+  overlay.style.display = "none";
+  popupPS.style.display = "none";
+});
+closeBtnGB.addEventListener("click", () => {
+  overlay.style.display = "none";
+  popupGB.style.display = "none";
+});

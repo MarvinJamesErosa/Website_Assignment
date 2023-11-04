@@ -951,4 +951,70 @@ input[type="checkbox"]:checked+.col-section h3::after {
   line-height: 34px;
 }
 
+/*POPUP*/
+.popup{
+  display: none;
+}
+.popup .overlay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup .popup-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #ffffff;
+  width: 800px;
+  height: auto;
+  border-radius: 18px;
+  z-index: 2;
+  padding: 40px 70px 70px 70px;
+  box-sizing: border-box;
+}
+
+.popup .close-popup-btn{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background: #e8e8ed;
+  padding-top: 2px;
+  color: #6e6e73;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.popup-title{
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1d1d1f;
+}
+.popup-p{
+  font-size: 16px;
+  color: #535353;
+  line-height: 24px;
+}
+.popup-ul li{
+  padding-top: 20px;
+}
+
+
+/*APPLE SPECIALIST*/
+#popup-ul-1 li a{
+  color: #1873d1;
+}
+#popup-ul-1 li a:hover{
+  text-decoration: underline;
+}
 
