@@ -51,11 +51,11 @@ nav ul li{
     margin: 0 1vw;
 }
 nav ul li a{
-    color: #a1a1a1;
+    color: #161617;
     font-size: 12px;
 }
 nav .icons{
-    color: #a1a1a1;
+    color: #161617;
     margin: 0 16px;
     font-size: 12px;
     cursor: pointer;
@@ -78,7 +78,7 @@ nav .icons{
    display: none;
     position: absolute;
     top: 40px;
-    background: #161617;
+    background: #fbfbfd;
     width: 100%;
     height: auto;
     left: 0;
@@ -90,11 +90,11 @@ nav .icons{
   
   .row {
     float: left;
-    background-color: #161617;
+    background-color: #fbfbfd;
     margin-right: 48px;
   }
   .row header{
-    color: #a1a1a1;
+    color: #161617;
     font-size: 12px;
     font-weight: 300;
     margin-left: 13px;
@@ -109,10 +109,10 @@ nav .icons{
 
   .row a h1{
     font-size: 24px;
-    color: #e6e6eb;
+    color: #161617;
   }
   .row a h3{
-    color: #e6e6eb;
+    color: #161617;
     font-weight: 600;
     font-size: 12px;
     margin-bottom: -16px;
@@ -121,7 +121,7 @@ nav .icons{
   .row a h6{
     font-weight: 600;
     font-size: 12px;
-    color: #e6e6eb;
+    color: #161617;
     margin-top: 8px;
     margin-bottom: -16px;
   }
@@ -137,16 +137,15 @@ nav .icons{
     clear: both;
   }
 
+  
   nav ul li:hover .mega-menu {
     display: block;
     width: 100%;
   }
-  nav ul li a:hover{
-    color: white;
+  .header-nav:hover {
+    background-color: #fbfbfd;
   }
-  nav .icons:hover{
-    color: white;
-  }
+
 
 
 @media (max-width: 833px){
